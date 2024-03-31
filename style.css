@@ -2,6 +2,10 @@
     font-family: Arial, sans-serif;
 }
 
+body {
+    background-color: #007185;
+}
+
 .container {
     display: flex;
     flex-direction: column;
@@ -97,12 +101,13 @@
     background-color: #FFD814;
 }
 
-.btn-buynow:hover{
+.btn-buynow:hover {
     background-color: #FFD814;
     color: white;
     box-shadow: 0 0 5px 0 rgba(0, 0, 0, .2);
-    
+
 }
+
 .btn-addtocart:hover {
     background-color: #FFA41C;
     color: white;
