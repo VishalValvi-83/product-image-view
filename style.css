@@ -3,17 +3,18 @@
 }
 
 body {
-    background-color: #007185;
+    background-color: aliceblue;
 }
 
 .container {
+    background-color: #fff;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     margin: 0 auto;
     padding: 10px;
     padding-top: 40px;
-    box-shadow: 0 0 10px 0 rgba(0, 0, 0, .2);
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, .2);
     border-radius: 10px;
     width: 100%;
 }
@@ -33,7 +34,7 @@ body {
     height: 100%;
     object-fit: cover;
     border-radius: 10px;
-    box-shadow: 0 0 10px 0 rgba(0, 0, 0, .2);
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, .1);
 }
 
 .view-images {
