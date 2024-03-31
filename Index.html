@@ -14,22 +14,22 @@
             <img src="./Images/main-img.jpg" alt id="main-product-image">
             <div class="view-images">
                 <div class="preview-img">
-                    <img src="./Images/img1.jpg" class="product-image" onclick="changeImage(1)">
+                    <img src="./Images/img1.jpg" class="product-image" onclick="changeImage('./Images/img1.jpg')">
                 </div>
                 <div class="preview-img">
-                    <img src="./Images/img2.jpg" class="product-image" onclick="changeImage(2)">
+                    <img src="./Images/img2.jpg" class="product-image" onclick="changeImage('./Images/img2.jpg')">
                 </div>
                 <div class="preview-img">
-                    <img src="./Images/img3.jpg" class="product-image" onclick="changeImage(3)">
+                    <img src="./Images/img3.jpg" class="product-image" onclick="changeImage('./Images/img3.jpg')">
                 </div>
                 <div class="preview-img">
-                    <img src="./Images/img4.jpg" class="product-image" onclick="changeImage(4)">
+                    <img src="./Images/img4.jpg" class="product-image" onclick="changeImage('./Images/img4.jpg')">
                 </div>
                 <div class="preview-img">
-                    <img src="./Images/img5.jpg" class="product-image" onclick="changeImage(5)">
+                    <img src="./Images/img5.jpg" class="product-image" onclick="changeImage('./Images/img5.jpg')">
                 </div>
                 <div class="preview-img">
-                    <img src="./Images/img6.jpg" class="product-image" onclick="changeImage(6)">
+                    <img src="./Images/img6.jpg" class="product-image" onclick="changeImage('./Images/img6.jpg')">
                 </div>
             </div>
         </div>
@@ -78,6 +78,12 @@
             </div>
         </div>
     </div>
+    <script>function changeImage(imageName) {
+            const mainImage = document.getElementById('main-product-image');
+            mainImage.src = imageName;
+        }
+        </script>
+
 </body>
 
 </html>

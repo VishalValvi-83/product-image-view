@@ -26,7 +26,7 @@
 #main-product-image {
     width: 100%;
     margin: 0 auto;
-    height: 500px;
+    height: 100%;
     object-fit: cover;
     border-radius: 10px;
     box-shadow: 0 0 10px 0 rgba(0, 0, 0, .2);
@@ -46,6 +46,7 @@
     object-fit: cover;
     margin: 5px;
     border-radius: 8px;
+    cursor: pointer;
 }
 
 .product-image:hover {
