@@ -97,6 +97,18 @@
     background-color: #FFD814;
 }
 
+.btn-buynow:hover{
+    background-color: #FFD814;
+    color: white;
+    box-shadow: 0 0 5px 0 rgba(0, 0, 0, .2);
+    
+}
+.btn-addtocart:hover {
+    background-color: #FFA41C;
+    color: white;
+}
+
+
 @media screen and (min-width: 768px) {
     .container {
         flex-direction: row;
